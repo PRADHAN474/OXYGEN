@@ -13,7 +13,7 @@ openai.api_key = config.GPT_API
 API_URL = "https://sugoi-api.vercel.app/search"
 
 # ----------------------------------------
-@app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@app.on_message(filters.command(["chatgpt","ai","ask","Master"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
@@ -35,7 +35,7 @@ async def chat(app :app, message):
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 
-@app.on_message(filters.command(["oxy" , ],  prefixes=["j","J"]))
+@app.on_message(filters.command(["xy" , ],  prefixes=["o","O"]))
 async def chat(app :app, message):
     
     try:
@@ -43,7 +43,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-             "**ʜᴇʟʟᴏ sɪʀ ɪ ᴀᴍ ᴊᴀʀᴠɪs & ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏᴅᴀʏ**")
+             "**𝐇𝐋𝐎 𝐒𝐈𝐑 𝐈𝐀𝐌 𝐎𝐗𝐘𝐆𝐄𝐍**")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -57,7 +57,7 @@ async def chat(app :app, message):
 
 # --------------------------------------------------------------------------------
 
-@app.on_message(filters.command(["ssis", "nnie"],  prefixes=["a", "A"]))
+@app.on_message(filters.command(["xygen"],  prefixes=["O", "o"]))
 async def chat(app :app, message):
     
     try:
@@ -65,7 +65,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ ɪ ᴀᴍ OXYGEN & ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏᴅᴀʏ**")
+            "**ʜᴇʟʟᴏ sɪʀ ɪ ᴀᴍ ᴀɴɴɪᴇ & ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏᴅᴀʏ**")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
