@@ -40,24 +40,24 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(1)
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ sᴛᴀʀᴛᴇᴅ ᴄᴏʟʟᴇᴄᴛɪɴɢ ᴅᴀᴛᴀ.**")
+    await response.edit_caption("**🥀𝐎𝐗𝐘𝐆𝐄𝐍 sᴛᴀʀᴛᴇᴅ ᴄᴏʟʟᴇᴄᴛɪɴɢ ᴅᴀᴛᴀ.**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
+    await response.edit_caption("**🥀𝐎𝐗𝐘𝐆𝐄𝐍 ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴊᴀʀᴠɪs ᴄᴏʀᴇ...**")
+    await response.edit_caption("**🥀𝐎𝐗𝐘𝐆𝐄𝐍 ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴊᴀʀᴠɪs ᴄᴏʀᴇ...**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴊᴀʀᴠɪs ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
+    await response.edit_caption("**🥀𝐎𝐗𝐘𝐆𝐄𝐍 ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**ᴀɴɴɪᴇ ʜᴀs sᴜᴄᴄᴇssғᴜʟʟʏ ᴀɴᴀʟʏsᴇᴅ sʏsᴛᴇᴍ ᴅᴀᴛᴀ !**")
+    await response.edit_caption("**𝐎𝐗𝐘𝐆𝐄𝐍 ʜᴀs sᴜᴄᴄᴇssғᴜʟʟʏ ᴀɴᴀʟʏsᴇᴅ sʏsᴛᴇᴍ ᴅᴀᴛᴀ !**")
     await asyncio.sleep(2)
-    await response.edit_caption("**ᴊᴀʀᴠɪs 📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**𝐎𝐗𝐘𝐆𝐄𝐍 📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
     pytgping = await JARVIS.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**🏓ᴀɴɴɪᴇ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨\nㅤ  🎸👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴛᴏᴇ🫣💞**"
+    captions = "**🏓𝐎𝐗𝐘𝐆𝐄𝐍..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨\nㅤ  🎸👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴛᴏᴇ🫣💞**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
