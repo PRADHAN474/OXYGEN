@@ -12,26 +12,26 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","jarvis2O")
+OWNER_USERNAME = getenv("OWNER_USERNAME","oxixd")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Annie_X_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Blossom_xmusic_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "𝐀𝐍𝐍𝐈𝐄 𝐗 𝐌𝐔𝐒𝐈𝐂")
+BOT_NAME = getenv("BOT_NAME" , "𝐎𝐗𝐘𝐆𝐄𝐍 𝐗 𝐁𝐎𝐓")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "musicXannie")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "@Blossom_xmusic_bot_assitant")
+EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002024677280))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001437104456))
 
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6788284558))
+OWNER_ID = int(getenv("OWNER_ID", 5059737154))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,14 +41,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/doraemon890/ANNIE-X-MUSIC",
+    "https://github.com/PRADHAN474/OXYGEN",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CDX_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OXEGN")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWANDARLOK")
 
 
@@ -133,10 +133,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/fdbffdb39d20374823466.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/ac7c6a767ac03a2dd6d3b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/5f15712a84154fefd0e5b.jpg"
+    "PING_IMG_URL", "https://graph.org/file/79b2347e9834e02510895.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/facec75902f1b6b361a8b.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/cd205021bf40f44ad78e4.jpg"
