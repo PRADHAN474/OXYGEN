@@ -13,7 +13,7 @@ openai.api_key = config.GPT_API
 API_URL = "https://sugoi-api.vercel.app/search"
 
 # ----------------------------------------
-@app.on_message(filters.command(["chatgpt","ai","ask","Master"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
