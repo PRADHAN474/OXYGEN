@@ -8,9 +8,9 @@ from ..logging import LOGGER
 
 class JARVIS(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"oxygen is on the way...")
+        LOGGER(__name__).info(f"˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧...")
         super().__init__(
-            name="𝐎𝐗𝐘𝐆𝐄𝐍 𝐗 𝐁𝐎𝐓",
+            name="˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
@@ -47,7 +47,7 @@ class JARVIS(Client):
                 "Please promote your bot as an admin in your log group/channel."
             )
             exit()
-        LOGGER(__name__).info(f"Music Bot Started as {self.name}")
+        LOGGER(__name__).info(f"˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Bot Started as {self.name}")
 
     async def stop(self):
         await super().stop()
